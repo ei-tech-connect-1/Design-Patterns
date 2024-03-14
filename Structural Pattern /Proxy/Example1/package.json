@@ -1,0 +1,17 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  },
+  "scripts": {
+    "start": "node out/Client.js",
+    "prestart": "npm run build",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
